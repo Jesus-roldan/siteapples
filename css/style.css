@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&display=swap');
+
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    padding-top: 3em;
+    background-image: url(/images/nature-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div#conteneur{
+ width: 96%;
+ border: 8px solid #ab4;
+ background-color: rgba(255, 255, 255, 0.4);
+ margin: auto;
+ max-width:1200px;
+ min-width:900px;
+
+ display: flex;
+ flex-wrap: wrap;
+}
+/*Debut header*/
+header{
+
+flex-basis: 100%;
+background-color: rgb(255, 255, 255);
+}
+figure.pomme{
+   
+    float: left;
+}
+img.title{
+    margin-top: 15px;
+}
+h1{
+font-size: 40px;
+margin: 10px 0;
+color: #ACC059;
+font-family: "Pinyon Script", cursive;
+font-weight: 400;
+font-style: normal;
+}
+h2{
+    color: #ACC059;
+}
+header h2{
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/*Fin header*/
+/*Debut Navegation*/
+nav{
+    flex-basis: 100%;
+
+    border: 1.5px solid #ACC059;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+}
+li{
+    padding: 20px 5px 20px 5px;
+    font-size: 35px;
+    flex-basis: 20%;
+    text-align: center;
+   border-right: 1.5px solid #ACC059;
+   
+}
+li::first-letter{
+    font-size: 200%;
+}
+a{
+
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+      color: #ACC059;
+}
+
+/*Fin Naveation*/
+/*Debut main*/
+
+main{
+   
+    padding: 2em 0em 5em 0px ;
+    flex-basis: 75%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/images/bg_page.gif); 
+    background-repeat: no-repeat;
+    background-position: left 2em top 2.5em;
+   
+}
+main article{
+   
+    margin: 0 2em 0 6em;
+    box-sizing: border-box;
+    
+}
+
+main article h2{
+ font-weight: 700;
+ padding-left: 35px;   
+ font-size: 28px;
+
+ background-image: url(/images/little_apple.gif);
+ background-repeat: no-repeat;
+ background-position: left bottom;
+}
+main article p{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/*Fin main*/
+
+/*Debut aside*/
+
+aside{
+    padding: 1em;
+    flex-basis: 25%;
+    background-color: rgb(255, 255, 255);
+   
+}
+aside h3{
+    font-size: 23px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #ab4;
+}
+aside p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*Fin aside*/
+/*Debut footer*/
+
+footer{
+    flex-basis: 100%;
+    text-align: center;
+    padding: 2em;
+}
+/*Fin footer*/
